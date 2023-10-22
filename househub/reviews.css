@@ -1,0 +1,170 @@
+body{
+
+    font-size: 18px;
+    font-family: sans-serif;
+    background-size:contain; 
+    background-color: #fff;
+}
+
+
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    height: 200px;
+    float: right; /* Align reviews to the right */
+    clear: right; /* Clear the float to prevent layout issues */
+    background-color: #f0f0f0; /* Background color for the review box */
+}
+
+/* Style for the review heading */
+.review h2 {
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+
+}
+
+/* Style for the image in the review */
+.review img {
+    max-width: 200%;
+    height: 100px;
+}
+
+/* Style for the overall page layout */
+
+
+h1 {
+    font-size: 24px;
+
+}
+
+form {
+    text-align:center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for the black button */
+.black-button {
+    background-color: #ffa31a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for the black button on hover */
+.black-button:hover {
+    background-color:#000; /* Darken the color on hover */
+}
+
+
+
+.hero5{
+    height:50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image/board.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.hero5 h3{
+    color:#000;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 270px;
+    padding-left: 50px;
+}
+.logo {
+    color:#000;
+    font-size:28px;
+    padding-left: 1px;
+}
+span{
+    color: #ffa31a;
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+}
+button{
+    border:none;
+    background:gray;
+    padding:12px 30px;
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    transition: .4s;
+
+}
+button:hover{
+    transform: scale(1.4l);
+    cursor:pointer;
+}
+.search-button:hover {
+    background-color: #ffa31a; 
+}
+
+p{
+    color:#ffa31a;
+}
+header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+ }
+ h1{
+    color:#000;
+ }
+
+ a{
+    color:#ffa31a;
+    cursor:pointer;
+    align-items: center;
+} 
+
